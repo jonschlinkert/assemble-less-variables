@@ -1,0 +1,76 @@
+{
+  "name": "assemble-less-variables",
+  "description": "Pass variables to Less.js before compiling. From Jon Schlinkert, core team member of Less.js. ",
+  "version": "0.1.0",
+  "homepage": "https://github.com/assemble/assemble-less-variables",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assemble/assemble-less-variables.git"
+  },
+  "bugs": {
+    "url": "https://github.com/assemble/assemble-less-variables/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/assemble/assemble-less-variables/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "less": "https://github.com/less/less.js/tarball/1.5.0-wip"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.1",
+    "lodash": "~1.2.1",
+    "grunt-contrib-nodeunit": "~0.2.0"
+  },
+  "keywords": [
+    "assemble",
+    "compile less",
+    "compile",
+    "compiler",
+    "less mixins",
+    "less variables",
+    "less nesting",
+    "css component",
+    "css modules",
+    "css preprocessor",
+    "framework",
+    "generate",
+    "generator",
+    "gh-pages",
+    "grunt plugin",
+    "grunt task",
+    "grunt",
+    "gruntplugin",
+    "less css compiler",
+    "less to sass",
+    "lesscss",
+    "less css",
+    "less css tutorial",
+    "less css framework",
+    "less css import",
+    "less library",
+    "less style sheet",
+    "less styles",
+    "less stylesheet",
+    "less",
+    "less.js",
+    "pre-processor",
+    "pre-processors",
+    "preprocessor"
+  ]
+}

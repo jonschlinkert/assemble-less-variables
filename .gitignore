@@ -1,0 +1,5 @@
+*.sublime-*
+node_modules
+tmp
+temp
+todo.md
