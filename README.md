@@ -2,6 +2,8 @@
 
 > Pass variables to the LESS parser before compiling.
 
+Inspired by https://github.com/excellenteasy/grunt-less-config by [@boennemann](https://github.com/boennemann)
+
 ## Getting Started
 _If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide._
 
@@ -23,14 +25,14 @@ If the plugin has been installed correctly, running `grunt --help` at the comman
 [Getting Started]: https://github.com/gruntjs/grunt/blob/devel/docs/getting_started.md
 [package.json]: https://npmjs.org/doc/json.html
 
-## The "assemble_less_variables" task
+## The "variables" task
 
 ### Overview
-In your project's Gruntfile, add a section named `assemble_less_variables` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `variables` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  assemble_less_variables: {
+  variables: {
     options: {
       // Task-specific options go here.
     },
@@ -43,13 +45,13 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
+#### options.variables
 Type: `String`
 Default value: `',  '`
 
 A string value that is used to do something with whatever.
 
-#### options.punctuation
+#### options.banner
 Type: `String`
 Default value: `'.'`
 
@@ -62,7 +64,7 @@ In this example, the default options are used to do something with whatever. So 
 
 ```js
 grunt.initConfig({
-  assemble_less_variables: {
+  variables: {
     options: {},
     files: {
       'dest/default_options': ['src/testing', 'src/123'],
@@ -76,7 +78,7 @@ In this example, custom options are used to do something else with whatever else
 
 ```js
 grunt.initConfig({
-  assemble_less_variables: {
+  variables: {
     options: {
       separator: ': ',
       punctuation: ' !!!',
